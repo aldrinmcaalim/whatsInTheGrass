@@ -16,3 +16,26 @@ body {
 h1 {
   text-align: center;
 }
+
+img {
+  cursor: pointer;
+}
+
+button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+/* Add to classlist on JS to ensure that the image won't be clickable after we changed from the original "field" image */
+.off {
+  pointer-events: none;
+  cursor: default;
+}
